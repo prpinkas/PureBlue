@@ -1,0 +1,147 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .name{
+    display: flex;
+  }
+
+  .name img{
+    width: 100px;
+  }
+
+  .nav{
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+.nav li{
+    padding-left: 25px;
+    list-style: none;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.herotitle{
+    grid-area: 1;
+    justify-self: center;
+}
+
+.herotitle h1{
+    font-size: 62.5px;
+    margin-bottom: 0px;
+}
+
+.btn{
+    grid-column: 2;
+    width: 175px;
+    color: white;
+    background: #002D62;
+    padding-left: 10px;
+    justify-self: center;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.btn p a{
+    padding-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+#intro{
+    text-align: center;
+}
+
+#microplastics{
+    width: 850px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.us{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.us h2{
+    font-size: 55px;
+    justify-self: center;
+}
+
+.us p{
+    font-size: 24px;
+    padding-top: 25px;
+    width: 700px;
+}
+
+.facts{
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: repeat(3, 550px);
+    grid-gap: 35px;
+    text-align: center;
+    margin-left: 85px;
+}
+
+#spread{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.nav2{
+    width: 875px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+
+.nav2 h3{
+    text-align: center;
+}
+
+.smallbtn{
+    text-align: center;
+}
+
+.smallbtn a{
+    color: white;
+    text-decoration: none;
+    background-color: #002D62;
+    padding: 5px 5px 5px 5px;
+    border-radius: 2.5px;
+}
+
+.nav3 li, .nav3 a{
+    text-align: center;
+    text-decoration:none;
+    color: black;
+    list-style: none;
+    margin-top: 10px;
+}
+
+footer h4{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 30px;
+}
