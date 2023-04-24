@@ -5,18 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PureBlue</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
   </head>
 
   <body>
-    <header>
-        <img src="img/PUREBLUELOGO.png" width="100px">
+    <header id="top">
+      <div class="name">
+        <img src="img/PUREBLUELOGO.png">
+        <h1>PureBlue</h1>
+      </div>
         <ul class="nav">
-            <li>About</li>
-            <li>Our Goal</li>
-            <li>Contact</li>
-            <li>Resources</li>
+            <li><a href="#intro">About</a></li>
+            <li><a href="#goal">Our Goal</a></li>
+            <li><a href="#social">Socials</a></li>
+            <li><a href="#resource">Resources</a></li>
         </ul>
     </header>
 
@@ -24,18 +30,18 @@
       <section class="hero">
         <!--Hero image of the ocean or something-->
         <img src="">
-        <div>
+        <div class="herotitle">
             <h1>PureBlue</h1>
-            <p>Fighting for a plastic-free future</p>
+            <h3>Fighting for a plastic-free future</h3>
         </div>
         <div class="btn">
-            <p>Learn More About Us</p>
+            <p><a href="#goal">Learn More About Us</a></p>
         </div>
       </section>
 
-      <h2>Intro</h2>
+      <h2 id="intro">Intro</h2>
 
-      <p>
+      <p id="microplastics">
         In 2022,  there were approximately 51 trillion microscopic pieces in the ocean weighing 269,000 tons. 
         That's as much as 1,345 blue whales. Technology says it's possible that humans may be consuming anywhere from 39,000 to 52,000 microplastic particles a year. 
         With added estimates of how much microplastic might be inhaled, that number is more than 74,000. 
@@ -47,7 +53,7 @@
 
       <!--Insert video here-->
 
-      <section class="us">
+      <section class="us" id="goal">
         <h2>Who We Are</h2>
         <p>Our campaign “PureBlue”, wants to convey the dangers of microplastics as they are out off by the public eye. 
             Here are some facts to get a deeper understanding of this small yet terrorizing danger…
@@ -74,9 +80,9 @@
         </p>
       </section>
 
-      <h1>Help Us Spread The Word!</h1>
+      <h1 id="spread">Help Us Spread The Word!</h1>
 
-      <section>
+      <section class="nav2" id="resource">
         <div>
             <h3>Rescources and Donations</h3>
         </div>
@@ -89,14 +95,14 @@
         <a href="resource.html">Take me there!</a>
       </p>
 
-        <footer>
+        <footer id="social">
             <h4>
                 Follow Us on our Social Media!
             </h4>
-           <ul>
-            <li><!--IG ICON--></li>
+           <ul class="nav3">
+            <li><i style="font-size:24px" class="fa">&#xf16d;</i></li>
             <li><a href="resource.html">Resources</a></li>
-            <li>Back to the Top</li>
+            <li><a href="top">Back to the Top</a></li>
            </ul>
         </footer>
     </main>
